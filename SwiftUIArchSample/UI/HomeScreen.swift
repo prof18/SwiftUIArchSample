@@ -8,7 +8,19 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeScreen: View {
+        @EnvironmentObject var appState: AppState
+
+    var body: some View {
+        HomeContent(viewModel: HomeViewModel(appState: appState))
+    }
+    
+}
+
+struct HomeContent: View {
+    
+    @ObservedObject var viewModel: HomeViewModel
+    
     @State private var selection = 0
  
     var body: some View {
@@ -22,7 +34,14 @@ struct ContentView: View {
                     }
                 }
                 .tag(0)
-            Text("Second View")
+            VStack {
+                Text("Second View")
+                Button(action: {
+                    self.viewModel.performLogout()
+                }) {
+                    Text("Logout")
+                }
+            }
                 .font(.title)
                 .tabItem {
                     VStack {
@@ -37,6 +56,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeScreen()
     }
 }
