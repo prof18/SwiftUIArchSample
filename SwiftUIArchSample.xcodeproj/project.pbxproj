@@ -21,14 +21,22 @@
 		A919C4962520AC0A00BEC272 /* LocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919C4952520AC0A00BEC272 /* LocalDataSource.swift */; };
 		A919C4982520AC1900BEC272 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919C4972520AC1900BEC272 /* AppContainer.swift */; };
 		A919C49A2520AD4700BEC272 /* LoginScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919C4992520AD4700BEC272 /* LoginScreenViewModel.swift */; };
-		A919C49C2520B2D100BEC272 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919C49B2520B2D100BEC272 /* HomeViewModel.swift */; };
 		A919C49E2520B54000BEC272 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919C49D2520B54000BEC272 /* FirstScreen.swift */; };
 		A919C4A02520B54900BEC272 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919C49F2520B54900BEC272 /* SecondScreen.swift */; };
+		A99874332520DEB600993F06 /* SecondScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99874322520DEB600993F06 /* SecondScreenRouter.swift */; };
+		A998743B2520E50B00993F06 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998743A2520E50B00993F06 /* Loader.swift */; };
+		A998743D2520E66700993F06 /* DataState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998743C2520E66700993F06 /* DataState.swift */; };
+		A998743F2520F29400993F06 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998743E2520F29400993F06 /* LoadingView.swift */; };
+		A99874432520FD2B00993F06 /* SecondScreenViewModel.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99874422520FD2B00993F06 /* SecondScreenViewModel.swift.swift */; };
+		A998744525210CB600993F06 /* Step3ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998744425210CB600993F06 /* Step3ViewModel.swift */; };
+		A99874492521137100993F06 /* Step3Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99874482521137100993F06 /* Step3Screen.swift */; };
 		A9F339AE2520B9FC0092C4FD /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F339AD2520B9FC0092C4FD /* News.swift */; };
 		A9F339B02520BA570092C4FD /* MockNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F339AF2520BA570092C4FD /* MockNews.swift */; };
 		A9F339B32520BB4A0092C4FD /* NewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F339B22520BB4A0092C4FD /* NewsCard.swift */; };
 		A9F339B52520BD0C0092C4FD /* NewsDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F339B42520BD0C0092C4FD /* NewsDetailScreen.swift */; };
 		A9F339B82520BD860092C4FD /* FirstScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F339B72520BD860092C4FD /* FirstScreenRouter.swift */; };
+		A9F339BC2520DA700092C4FD /* Step1Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F339BB2520DA700092C4FD /* Step1Screen.swift */; };
+		A9F339BE2520DA7D0092C4FD /* Step2Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F339BD2520DA7D0092C4FD /* Step2Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,14 +77,22 @@
 		A919C4952520AC0A00BEC272 /* LocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSource.swift; sourceTree = "<group>"; };
 		A919C4972520AC1900BEC272 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
 		A919C4992520AD4700BEC272 /* LoginScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewModel.swift; sourceTree = "<group>"; };
-		A919C49B2520B2D100BEC272 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		A919C49D2520B54000BEC272 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		A919C49F2520B54900BEC272 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		A99874322520DEB600993F06 /* SecondScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenRouter.swift; sourceTree = "<group>"; };
+		A998743A2520E50B00993F06 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		A998743C2520E66700993F06 /* DataState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataState.swift; sourceTree = "<group>"; };
+		A998743E2520F29400993F06 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A99874422520FD2B00993F06 /* SecondScreenViewModel.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondScreenViewModel.swift.swift; sourceTree = "<group>"; };
+		A998744425210CB600993F06 /* Step3ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3ViewModel.swift; sourceTree = "<group>"; };
+		A99874482521137100993F06 /* Step3Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3Screen.swift; sourceTree = "<group>"; };
 		A9F339AD2520B9FC0092C4FD /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		A9F339AF2520BA570092C4FD /* MockNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNews.swift; sourceTree = "<group>"; };
 		A9F339B22520BB4A0092C4FD /* NewsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCard.swift; sourceTree = "<group>"; };
 		A9F339B42520BD0C0092C4FD /* NewsDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailScreen.swift; sourceTree = "<group>"; };
 		A9F339B72520BD860092C4FD /* FirstScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenRouter.swift; sourceTree = "<group>"; };
+		A9F339BB2520DA700092C4FD /* Step1Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1Screen.swift; sourceTree = "<group>"; };
+		A9F339BD2520DA7D0092C4FD /* Step2Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +186,7 @@
 		A919C4892520AB3F00BEC272 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A9F339B62520BD750092C4FD /* Route */,
+				A9F339B62520BD750092C4FD /* Router */,
 				A9F339B12520BB3B0092C4FD /* components */,
 				A919C4A12520B55D00BEC272 /* Home */,
 				A919C48C2520AB6000BEC272 /* LoginScreen.swift */,
@@ -184,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				A919C48F2520AB9000BEC272 /* AppState.swift */,
+				A998743C2520E66700993F06 /* DataState.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -209,11 +226,9 @@
 		A919C4A12520B55D00BEC272 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A9F339BA2520D9FC0092C4FD /* SecondScreen */,
+				A9F339B92520D9F00092C4FD /* FirstScreen */,
 				A919C45D2520AB2E00BEC272 /* HomeScreen.swift */,
-				A919C49B2520B2D100BEC272 /* HomeViewModel.swift */,
-				A919C49D2520B54000BEC272 /* FirstScreen.swift */,
-				A919C49F2520B54900BEC272 /* SecondScreen.swift */,
-				A9F339B42520BD0C0092C4FD /* NewsDetailScreen.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -222,16 +237,41 @@
 			isa = PBXGroup;
 			children = (
 				A9F339B22520BB4A0092C4FD /* NewsCard.swift */,
+				A998743A2520E50B00993F06 /* Loader.swift */,
+				A998743E2520F29400993F06 /* LoadingView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
 		};
-		A9F339B62520BD750092C4FD /* Route */ = {
+		A9F339B62520BD750092C4FD /* Router */ = {
 			isa = PBXGroup;
 			children = (
 				A9F339B72520BD860092C4FD /* FirstScreenRouter.swift */,
+				A99874322520DEB600993F06 /* SecondScreenRouter.swift */,
 			);
-			path = Route;
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A9F339B92520D9F00092C4FD /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A919C49D2520B54000BEC272 /* FirstScreen.swift */,
+				A9F339B42520BD0C0092C4FD /* NewsDetailScreen.swift */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		A9F339BA2520D9FC0092C4FD /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A99874422520FD2B00993F06 /* SecondScreenViewModel.swift.swift */,
+				A919C49F2520B54900BEC272 /* SecondScreen.swift */,
+				A9F339BB2520DA700092C4FD /* Step1Screen.swift */,
+				A9F339BD2520DA7D0092C4FD /* Step2Screen.swift */,
+				A998744425210CB600993F06 /* Step3ViewModel.swift */,
+				A99874482521137100993F06 /* Step3Screen.swift */,
+			);
+			path = SecondScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,14 +408,22 @@
 				A9F339B02520BA570092C4FD /* MockNews.swift in Sources */,
 				A919C45A2520AB2E00BEC272 /* AppDelegate.swift in Sources */,
 				A919C49E2520B54000BEC272 /* FirstScreen.swift in Sources */,
+				A99874332520DEB600993F06 /* SecondScreenRouter.swift in Sources */,
 				A919C4982520AC1900BEC272 /* AppContainer.swift in Sources */,
+				A998743F2520F29400993F06 /* LoadingView.swift in Sources */,
+				A998743D2520E66700993F06 /* DataState.swift in Sources */,
+				A99874432520FD2B00993F06 /* SecondScreenViewModel.swift.swift in Sources */,
 				A919C49A2520AD4700BEC272 /* LoginScreenViewModel.swift in Sources */,
-				A919C49C2520B2D100BEC272 /* HomeViewModel.swift in Sources */,
 				A919C4A02520B54900BEC272 /* SecondScreen.swift in Sources */,
+				A9F339BE2520DA7D0092C4FD /* Step2Screen.swift in Sources */,
+				A998743B2520E50B00993F06 /* Loader.swift in Sources */,
+				A99874492521137100993F06 /* Step3Screen.swift in Sources */,
 				A919C4902520AB9000BEC272 /* AppState.swift in Sources */,
 				A919C4932520ABEE00BEC272 /* User.swift in Sources */,
 				A9F339B32520BB4A0092C4FD /* NewsCard.swift in Sources */,
+				A998744525210CB600993F06 /* Step3ViewModel.swift in Sources */,
 				A9F339B82520BD860092C4FD /* FirstScreenRouter.swift in Sources */,
+				A9F339BC2520DA700092C4FD /* Step1Screen.swift in Sources */,
 				A919C4962520AC0A00BEC272 /* LocalDataSource.swift in Sources */,
 				A919C48D2520AB6000BEC272 /* LoginScreen.swift in Sources */,
 				A919C45C2520AB2E00BEC272 /* SceneDelegate.swift in Sources */,

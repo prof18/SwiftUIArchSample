@@ -1,14 +1,15 @@
 //
-//  HomeViewModel.swift
+//  SecondScreenViewModel.swift
 //  SwiftUIArchSample
 //
 //  Created by Marco Gomiero on 27/09/2020.
 //  Copyright © 2020 Marco Gomiero. All rights reserved.
 //
 
+import Foundation
 import Combine
 
-class HomeViewModel: ObservableObject {
+class SecondScreenViewModel: ObservableObject {
     
     let appState: AppState
     let localDataSource: LocalDataSource

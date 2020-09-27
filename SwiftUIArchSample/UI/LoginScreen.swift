@@ -25,6 +25,7 @@ struct LoginContent: View {
     
 
     var body: some View {
+        
         VStack {
             Text("Login Screen")
             Button(action: {
@@ -33,6 +34,7 @@ struct LoginContent: View {
                 Text("Login")
             }
         }
+        
     }
 }
 

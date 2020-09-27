@@ -12,6 +12,9 @@ struct NewsDetailScreen: View {
     
    @Binding var news: News?
     
+   @EnvironmentObject var router: FirstScreenRouter
+
+    
     var body: some View {
         VStack {
             Text("News Detail")
@@ -27,9 +30,6 @@ struct NewsDetailScreen: View {
                 Text("Open in browser")
             }
             Spacer()
-                .onAppear {
-                    print("Show news detail")
-            }
         }
     }
 }

@@ -9,23 +9,18 @@
 import SwiftUI
 
 struct HomeScreen: View {
-        @EnvironmentObject var appState: AppState
 
-    var body: some View {
-        HomeContent(viewModel: HomeViewModel(appState: appState))
-    }
+    let firstScreen = FirstScreen()
+    let firstScreenRouter = FirstScreenRouter()
     
-}
-
-struct HomeContent: View {
-    
-    @ObservedObject var viewModel: HomeViewModel
+    let secondScreen = SecondScreen()
+    let secondScreenRouter = SecondScreenRouter()
     
     @State private var selection = 0
  
     var body: some View {
         TabView(selection: $selection){
-            FirstScreen()
+            firstScreen.environmentObject(firstScreenRouter)
                 .font(.title)
                 .tabItem {
                     VStack {
@@ -34,14 +29,17 @@ struct HomeContent: View {
                     }
                 }
                 .tag(0)
-            SecondScreen(viewModel: viewModel)
+            secondScreen.environmentObject(secondScreenRouter)
                 .font(.title)
                 .tabItem {
                     VStack {
                         Image("second")
                         Text("Second")
                     }
-                }
+            }.onAppear {
+                // A shitty hack to avoid Attempting to begin a transition on navigation bar while a transition is in progress.
+                self.firstScreenRouter.newsDetail.triggerNavigation = false
+            }
                 .tag(1)
         }
     }
