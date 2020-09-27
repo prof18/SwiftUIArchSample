@@ -25,7 +25,7 @@ struct HomeContent: View {
  
     var body: some View {
         TabView(selection: $selection){
-            Text("First View")
+            FirstScreen()
                 .font(.title)
                 .tabItem {
                     VStack {
@@ -34,14 +34,7 @@ struct HomeContent: View {
                     }
                 }
                 .tag(0)
-            VStack {
-                Text("Second View")
-                Button(action: {
-                    self.viewModel.performLogout()
-                }) {
-                    Text("Logout")
-                }
-            }
+            SecondScreen(viewModel: viewModel)
                 .font(.title)
                 .tabItem {
                     VStack {
